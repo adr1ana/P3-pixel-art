@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="icon" type="image/png" href="paint.png"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syncopate">
+    <!-- icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="Scripts/html2canvas.js" type="text/javascript"></script>
+    <!--responsive web design-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <header>
+    <h1>Lab: Pixel Art Maker</h1>
+  </header>
+  <!-- instructions modal div -->
+
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2> How to use Pixel Art? </h2>
+      </div>
+      <div class="modal-body">
+      <br><br>
+      <center>
+        <form id="info-table">
+          <div class="div-table">
+            <div class="div-table-row">
+              <div class="div-table-col" align="center"><img src="size2.svg" width="100" height="100"></div>
+              <div  class="div-table-col-middle"><img src="line.svg" width="50" height="100"></div>
+              <div  class="div-table-col"><img src="colors2.svg" width="100" height="100"></div>
+              <div  class="div-table-col-middle"><img src="line.svg" width="50" height="100"></div>
+              <div  class="div-table-col"><img src="draw2.svg" width="100" height="100"></div>
+            </div>
+            <div class="div-table-row">
+              <div class="div-table-col-sec">
+                <p>
+                  <br>
+                  First select width and height of your drawing paper.
+                  <br>
+                  Click SUBMIT!
+                  <br>
+                </p>
+              </div>
+              <div class="div-table-col-middle"><br></div>
+              <div class="div-table-col-sec">
+                <p><br>Click on color picker or suggested colors!<br></p>
+              </div>
+              <div class="div-table-col-middle"><br></div>
+              <div class="div-table-col-sec">
+                <p><br> Start drawing your pixel art! Have fun!<br></p>
+              </div>
+            </div>
+          </div>
+        </form>
+      </center>
+      </div>
+    </div>
+  </div>
+
+<!-- flex div container -->
+<div class="flex-container">
+  <div class="flex">
+    <fieldset>
+    <legend>Choose Grid Size</legend>
+    <form id="sizePicker">
+      <br>
+        H|
+        <input type="number" id="input_height" name="height" min="1" max="100" value="25">
+        W|
+        <input type="number" id="input_width" name="width" min="1" max="100" value="25">
+      <br>
+      <br>
+      <br>
+        <input type="submit" class="btn button" id="submit_button">
+      <br>
+    </form>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Pick A Color</legend>
+    <input type="color" id="colorPicker">
+    <br>
+    <p> Or choose default colors:</p>
+    <button class="button pink color"></button>
+    <button class="button green color"></button>
+    <button class="button blue color"></button>
+    <button class="button orange color"></button>
+    <button class="button violet color"></button>
+    <button class="button yellow color"></button>
+  </fieldset>
+  <br>
+  <button class="btn button" id="clear"><i class="fa fa-trash-o"></i> Clear All</button>
+  </div>
+  <div class="flex">
+    <legend>Design Canvas</legend>
+    <br>
+    <img id="temp-img" src="drawingPixelArt2.svg" width="550" height="550">
+    <table id="pixel_canvas"></table>
+    <br>
+  </div>
+  <div class="flex">
+    <center>
+        <button id="ibutton" class="btn">Instructions</button>
+      </center>
+      <br>
+    <fieldset>
+      <legend>Tools</legend>
+      <br>
+      <button class="btn button" id="table-grid"><i class="fa fa-th"></i></button>
+      <button class="not-active" id="eye-dropper"><i class="fa fa-eyedropper"></i></button>
+      <br>
+      <button class="not-active" id="table-bg"><i class="fa fa-pencil-square"></i></button>
+      <button class="not-active" id="grid-color"><i class="fa fa-pencil-square-o"></i></button>
+      <br>
+      <button class="not-active" id="undo_button"><i class="fa fa-undo"></i></button>
+      <button class="not-active" id="redo_button"><i class="fa fa-repeat"></i></button>
+      <br>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Save your work</legend>
+      <br>Save as image file<br><br>
+      <button class="not-active" id="save_img">
+        <i class="fa fa-picture-o"></i>
+        <i class="fa fa-arrow-right"></i>
+        <i class="fa fa-laptop"></i>
+      </button>
+        <br>
+    </fieldset>
+  </div>
+</div>
+<footer>
+  <br>
+  <p> Created by  @adr1ana </p>
+  <br>
+</footer>
+<script src="designs.js">
+</script>
+</body>
+</html>

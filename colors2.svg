@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg2832">
+  <defs
+     id="defs2826" />
+  <metadata
+     id="metadata2829">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <circle
+     style="opacity:1;fill:#01dfa4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.22748691;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+     id="circle1700"
+     cx="50.000004"
+     cy="50.000004"
+     r="49.766865" />
+  <path
+     id="path1781"
+     d="M 50.113586,65.14414 V 75.300603 H 34.837716 C 33.633132,69.785348 35.07118,58.766234 35.905478,57.399555 Z"
+     style="fill:#b92d1a;fill-opacity:1;stroke-width:0.09980897" />
+  <polygon
+     transform="matrix(0.09980897,0,0,0.09980897,24.448906,24.448924)"
+     id="polygon1783"
+     points="370.164,294.719 382.788,294.719 382.788,509.49 257.138,509.49 257.138,407.731 256.71,325.144 "
+     style="fill:#e64c2d;fill-opacity:1" />
+  <rect
+     id="rect1785"
+     height="21.435974"
+     width="12.542395"
+     style="fill:#fa6942;fill-opacity:1;stroke-width:0.09980897"
+     y="53.864525"
+     x="62.655273" />
+  <g
+     transform="matrix(0.09980897,0,0,0.09980897,24.448906,24.448924)"
+     id="g1791">
+    <rect
+       id="rect1787"
+       height="214.77"
+       width="14.264"
+       style="fill:#666666"
+       y="294.71899"
+       x="375.66299" />
+    <rect
+       id="rect1789"
+       height="147.97301"
+       width="14.264"
+       style="fill:#666666"
+       y="361.517"
+       x="250.013" />
+  </g>
+  <path
+     id="path1793"
+     d="m 53.409272,61.848433 -3.295789,3.29581 -5.341579,5.342964 c -9.863109,2.501405 -5.307435,-3.309955 -5.307435,-5.223409 l -0.711848,-12.775934 7.484175,2.188114 z"
+     style="fill:#017c5b;fill-opacity:1;stroke-width:0.09980897" />
+  <polygon
+     transform="matrix(0.09980897,0,0,0.09980897,24.448906,24.448924)"
+     id="polygon1795"
+     points="227.169,134.009 316.09,45.074 467.943,196.941 379.022,285.861 "
+     style="fill:#65fed6;fill-opacity:1" />
+  <polygon
+     transform="matrix(0.09980897,0,0,0.09980897,24.448906,24.448924)"
+     id="polygon1797"
+     points="218.297,142.866 227.169,134.009 379.022,285.861 370.164,294.719 290.158,374.711 218.297,302.85 181.111,242.414 "
+     style="fill:#01ad7f;fill-opacity:1" />
+  <g
+     transform="matrix(0.09980897,0,0,0.09980897,24.448906,24.448924)"
+     id="g1803">
+    <polygon
+       id="polygon1799"
+       points="384.064,280.818 373.98,290.905 222.127,139.052 232.199,128.952 "
+       style="fill:#666666" />
+    <rect
+       id="rect1801"
+       height="14.264"
+       width="137.673"
+       style="fill:#666666"
+       transform="matrix(-0.7071,-0.7071,0.7071,-0.7071,181.7021,727.3167)"
+       y="318.89499"
+       x="172.647" />
+  </g>
+  <polygon
+     transform="matrix(0.09980897,0,0,0.09980897,24.448906,24.448924)"
+     id="polygon1805"
+     points="218.297,302.85 218.297,370.118 3.541,370.118 3.541,244.468 218.297,244.468 "
+     style="fill:#e1770a;fill-opacity:1" />
+  <polygon
+     transform="matrix(0.09980897,0,0,0.09980897,24.448906,24.448924)"
+     id="polygon1807"
+     points="218.297,142.866 218.297,244.468 3.541,244.468 3.541,118.803 218.297,118.803 "
+     style="fill:#f58d24;fill-opacity:1" />
+  <rect
+     id="rect1809"
+     height="11.857605"
+     width="21.434574"
+     style="fill:#f7b239;stroke-width:0.09980897"
+     x="24.802334"
+     y="24.448908" />
+  <g
+     transform="matrix(0.09980897,0,0,0.09980897,24.448906,24.448924)"
+     id="g1815">
+    <rect
+       id="rect1811"
+       height="14.264"
+       width="214.756"
+       style="fill:#666666"
+       y="111.671"
+       x="3.5409999" />
+    <rect
+       id="rect1813"
+       height="14.264"
+       width="214.756"
+       style="fill:#666666"
+       y="237.336"
+       x="3.5409999" />
+  </g>
+  <path
+     id="path1817"
+     d="m 46.236899,64.833827 v -3.4438 H 24.802338 v 3.4438 c 0,5.918982 4.798299,10.71728 10.71728,10.71728 v 0 c 5.918962,0 10.717281,-4.798298 10.717281,-10.71728 z"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.09980897" />
+  <path
+     id="path1819"
+     d="m 35.519722,65.26661 c 1.070739,0 1.938974,0.868235 1.938974,1.938975 0,1.07076 -0.868338,1.938995 -1.938974,1.938995 -1.072456,0 -1.940691,-0.868339 -1.940691,-1.938995 0,-1.070637 0.868338,-1.938975 1.940691,-1.938975 z"
+     style="fill:#e1770a;fill-opacity:1;stroke-width:0.09980897" />
+  <rect
+     id="rect1821"
+     height="1.4236752"
+     width="21.434574"
+     style="fill:#666666;stroke-width:0.09980897"
+     y="60.678188"
+     x="24.802334" />
+</svg>
